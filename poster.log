@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.28)  6 MAY 2014 22:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.28)  6 MAY 2014 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,12 +338,8 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 <./images/BA.jpg, id=1, 361.35pt x 210.7875pt>
 File: ./images/BA.jpg Graphic file (type jpg)
  <use ./images/BA.jpg>
-Package pdftex.def Info: ./images/BA.jpg used on input line 135.
-(pdftex.def)             Requested size: 1633.47282pt x 953.1183pt.
-
-Overfull \hbox (582.42795pt too wide) in paragraph at lines 135--136
-[][] 
- []
+Package pdftex.def Info: ./images/BA.jpg used on input line 134.
+(pdftex.def)             Requested size: 361.34912pt x 210.78699pt.
 
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -363,7 +359,7 @@ map/pdftex.map}] (./poster.aux) )
 Here is how much of TeX's memory you used:
  2372 strings out of 493315
  37298 string characters out of 6137904
- 126615 words of memory out of 5000000
+ 126605 words of memory out of 5000000
  5770 multiletter control sequences out of 15000+600000
  20206 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -376,7 +372,7 @@ cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/mathpazo/f
 plmri.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on poster.pdf (1 page, 85853 bytes).
+Output written on poster.pdf (1 page, 86654 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
