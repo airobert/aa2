@@ -5,6 +5,17 @@
 \usepackage{mathpazo}			%Load palatino font & pazo math
 \usepackage{color}				%Needed for colour boxes & coloured text
 
+
+\usepackage{graphicx}     		%Needed to import images
+
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\graphicspath{ {./images/} }
+
+
+
+
 %%%Define colours and lengths
 \definecolor{headingcol}{rgb}{1,1,1}			%Colour of main title
 \definecolor{boxcol}{rgb}{0.7,0.2,0.2}		%Edge-colour of box and top banner
@@ -30,7 +41,7 @@
 }
 \makeatother
 
-\title{Group 5 poster XXXX}
+\title{BA Scale Free Networks - Group 5}
 
 \author{Author A \& Author B\\
 University College London}
@@ -118,20 +129,14 @@ Wednesday & Showers & 17 & 12 & 6 &moderate
 \columnbreak
 
 %%%Column 3
-\section*{Discussion}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut dui. Vivamus ullamcorper. Pellentesque metus dui, facilisis nec, aliquet ut, ultrices quis, ipsum. Mauris semper venenatis nunc. Nunc et leo. Morbi quis tortor quis ipsum rhoncus faucibus. Praesent nunc. Aliquam justo. Nullam vitae leo. Nam imperdiet scelerisque orci.\\
-\\
-Donec quis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer vel ante a tortor sollicitudin elementum. Duis tortor est, tincidunt non, dapibus sed, tincidunt in, elit. Sed auctor. Sed libero augue, sollicitudin ut, vehicula quis, feugiat feugiat, risus. Phasellus lobortis. Cras ut tellus sit amet neque porta convallis. Quisque ut mi. Cras elit nunc, ultrices in, tempus sit amet, semper in, purus.\\
-\\
-Vivamus interdum erat non massa. Nullam condimentum metus sed dui. Nam gravida risus eu dui. Donec quis risus sit amet elit semper imperdiet. Aliquam ut pede nec orci pharetra ultrices. Integer sed velit quis tellus sollicitudin commodo. Phasellus scelerisque tellus ut justo. Vivamus condimentum leo quis lectus. Aliquam sem massa, tincidunt ac, venenatis at, pulvinar vulputate, lectus. Nulla sit amet libero. Nullam fermentum nunc et sapien luctus lobortis. Aenean lectus purus, porta at, tincidunt in, aliquam vel, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum quis velit. Nam tincidunt nisi sed erat. Sed vel enim eu lectus mattis convallis. In vulputate tincidunt erat. Ut nec ligula id tellus aliquam aliquam. In lectus erat, malesuada sed, dignissim a, gravida sit amet, justo. Donec nulla.\\
-\\
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut dui. Vivamus ullamcorper. Pellentesque metus dui, facilisis nec, aliquet ut, ultrices quis, ipsum. Mauris semper venenatis nunc. Nunc et leo. Morbi quis tortor quis ipsum rhoncus faucibus. Praesent nunc. Aliquam justo. Nullam vitae leo. Nam imperdiet scelerisque orci.\\
-\\
-Donec quis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer vel ante a tortor sollicitudin elementum. Duis tortor est, tincidunt non, dapibus sed, tincidunt in, elit. Sed auctor. Sed libero augue, sollicitudin ut, vehicula quis, feugiat feugiat, risus. Phasellus lobortis. Cras ut tellus sit amet neque porta convallis. Quisque ut mi. Cras elit nunc, ultrices in, tempus sit amet, semper in, purus.\\
-\\
-Vivamus interdum erat non massa. Nullam condimentum metus sed dui. Nam gravida risus eu dui. Donec quis risus sit amet elit semper imperdiet. Aliquam ut pede nec orci pharetra ultrices. Integer sed velit quis tellus sollicitudin commodo. Phasellus scelerisque tellus ut justo. Vivamus condimentum leo quis lectus. Aliquam sem massa, tincidunt ac, venenatis at, pulvinar vulputate, lectus. Nulla sit amet libero. Nullam fermentum nunc et sapien luctus lobortis. Aenean lectus purus, porta at, tincidunt in, aliquam vel, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum quis velit. Nam tincidunt nisi sed erat. Sed vel enim eu lectus mattis convallis. In vulputate tincidunt erat. Ut nec ligula id tellus aliquam aliquam. In lectus erat, malesuada sed, dignissim a, gravida sit amet, justo. Donec nulla.\\
-\\
-Vivamus interdum erat non massa. Nullam condimentum metus sed dui. Nam gravida risus eu dui. Donec quis risus sit amet elit semper imperdiet. Aliquam ut pede nec orci pharetra ultrices. Integer sed velit quis tellus sollicitudin commodo. Phasellus scelerisque tellus ut justo. Vivamus condimentum leo quis lectus. Aliquam sem massa, tincidunt ac, venenatis at, pulvinar vulputate, lectus. Nulla sit amet libero. Nullam fermentum nunc et sapien luctus lobortis. Aenean lectus purus, porta at, tincidunt in, aliquam vel, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum quis velit. Nam tincidunt nisi sed erat. Sed vel enim eu lectus mattis convallis. In vulputate tincidu
+\section*{Examples of Scale Free Networks}
+\begin{figure}[p]
+
+      \includegraphics[width=0.5\textwidth]{BA.jpg}
+  \caption{BA Scale Free Network Generated }
+\end{figure}
+
+
 \section{Conclusion}
 In this poster, a Scale Free BA network was defined, An algorithm was presented. Several parameters were introduced. The results were analysed as these parameters vary. There is XX difference when increasing the size of the network and similarities were investigated and compared with small real-world networks. In addition, topological properties were analysed. 
 %\nocite*
