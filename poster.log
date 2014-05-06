@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.28)  6 MAY 2014 23:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.28)  6 MAY 2014 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,7 +361,7 @@ map/pdftex.map} <./BA.jpg> <./airtraffic.jpg>] (./poster.aux) )
 Here is how much of TeX's memory you used:
  2376 strings out of 493315
  37342 string characters out of 6137904
- 131252 words of memory out of 5000000
+ 131323 words of memory out of 5000000
  5774 multiletter control sequences out of 15000+600000
  20206 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -375,7 +375,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on poster.pdf (1 page, 381953 bytes).
+Output written on poster.pdf (1 page, 382912 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
