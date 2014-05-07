@@ -4,7 +4,7 @@
 \usepackage[left=2cm,right=2cm,bottom=0cm,top=0cm]{geometry}			%Reset margins
 \usepackage{mathpazo}			%Load palatino font & pazo math
 \usepackage{color}				%Needed for colour boxes & coloured text
-
+\usepackage{amsmath}
 
 \usepackage{graphicx}     		%Needed to import images
 
@@ -98,14 +98,17 @@ return graph G\\
  \caption{BA Network Generation Algorithm}
 \end{algorithm}
 
-\section*{Algorithm in Action}
-Below is an illustration of the BA algorithm being applied to a small network.
-It initially starts of with two nodes that are connected to each other. After adding more nodes, a few individual nodes start to gain more connects than the others.\\
-\centerline{\includegraphics[width=30cm]{growth.jpg}}
 
 \columnbreak
 
 %%%Column 2
+
+
+
+\section*{Algorithm in Action}
+Below is an illustration of the BA algorithm being applied to a small network.
+It initially starts of with two nodes that are connected to each other. After adding more nodes, a few individual nodes start to gain more connects than the others.\\
+\centerline{\includegraphics[width=30cm]{growth.jpg}}
 
 \section*{Examples of Scale Free Networks}
 
@@ -140,18 +143,17 @@ There are three parameters in this algorithm. They are the totoal number of node
 \section*{Structual and Topological Properties}
 
 \begin{description} 
-\item[Small World] A few 
-\item[Density] 
-\item[Connectivity] 
+\item[Small World] Small-world network is a network that every two nodes in the network has at least one path. i.e. most nodes can be reached from every other nodes by a small number of steps. 
+  \item[Power Law Distribution] The connectivity of BA scale free network has the property of Non-homogeneity: very few nodes have many links but most nodes have very few links.
   \item[Preferential Attachment] The probability of a new node getting connected with a node i is: $P[i] = \frac{k_i}{\sum\limits_{k=1}^N} k_j$ (see the algorithms part)
 
-  \item[Power Law] XXX
-  \item[Scale Free] The degree distribution should follow $P(k) ~ k^{-r}$, i.e. scale-free, where r is between 2 and 3 usually.
+
+  \item[Scale Free] The degree distribution should follow $P(k) \sim k^{-r}$, where r is between 2 and 3 usually.
 \item[Average Path Length] Average Path Length of BA Scale Free network is:  $\frac{\ln{N}}{\ln{\ln{N}}}$
 \end{description}
 
 \section*{Similarities between the networks and real-world networks}
-
+Real work networks such as air traffic control and the Internet all grow with time, this is the same as the Scale-free networks. BA network provides a model of such growth. They are also robust against removing nodes. 
 
 
 
